@@ -8,6 +8,7 @@ class Appbar extends StatefulWidget {
 }
 
 class _AppbarState extends State<Appbar> {
+  TextEditingController _searchfield = new TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -101,7 +102,7 @@ class _AppbarState extends State<Appbar> {
                   ),
                   Expanded(
                       child: TextFormField(
-                    // controller: _searchfield,
+                    controller: _searchfield,
                     decoration: InputDecoration(
                       border: InputBorder.none,
                       hintText: 'Trip,vehicle,driver',

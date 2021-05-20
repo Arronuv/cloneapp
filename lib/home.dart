@@ -1,4 +1,3 @@
-import 'package:cloneapp/appbar.dart';
 import 'package:cloneapp/header.dart';
 import 'package:flutter/material.dart';
 
@@ -12,9 +11,9 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   List<Widget> _navi = [
     Header(),
-    mapscreen(),
+    Mapscreen(),
     Header(),
-    mapscreen(),
+    Mapscreen(),
   ];
 
   int _currentindex = 0;

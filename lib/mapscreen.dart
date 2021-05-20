@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class mapscreen extends StatefulWidget {
+class Mapscreen extends StatefulWidget {
   @override
-  _mapscreenState createState() => _mapscreenState();
+  _MapscreenState createState() => _MapscreenState();
 }
 
 //CameraPosition(target: LatLng(23.63936, 68.14712), zoom: 10.0);
 
-class _mapscreenState extends State<mapscreen> {
+class _MapscreenState extends State<Mapscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

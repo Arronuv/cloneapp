@@ -9,7 +9,6 @@ class Header extends StatefulWidget {
 }
 
 class _HeaderState extends State<Header> {
-  TextEditingController _searchfield = new TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
